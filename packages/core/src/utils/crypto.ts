@@ -6,7 +6,7 @@ import {
   pbkdf2Sync,
   randomUUID,
 } from 'crypto';
-import { genSalt, hash, compare } from 'bcrypt';
+import { genSalt, hash, compare } from "bcryptjs";
 import { deflateSync, inflateSync } from 'zlib';
 import { Env } from './env';
 import { createLogger } from './logger';
